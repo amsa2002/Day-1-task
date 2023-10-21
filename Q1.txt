@@ -1,0 +1,30 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+***************************************************
+
+HTTP1.1:
+.......
+
+1.HTTP1.1 was created in 1997. This first version of HTTP was called HTTP1.1. This version is still in use on the web.
+
+2.HTTP1.1 loads resources one after the other, so if one resource cannot be loaded,
+it blocks all the other resources behind it
+
+3.It works on the textual format.
+
+4.It compresses data by itself.
+
+5.This is is synchronous. 
+
+HTTP2:
+......
+
+1.HTTP2 was created in 1997.HTTP2 solves several problems that the creators of HTTP1.1 did not anticipate.
+
+2.HTTP/2 is able to use a single TCP connection to send multiple streams 
+of data at once so that no one resource blocks any other resource.
+
+3.It works on the binary protocol.
+
+4.It uses HPACK for data compression.
+
+5.This is asynchronous.

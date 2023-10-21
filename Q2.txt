@@ -1,0 +1,36 @@
+Write a blog about objects and its internal representation in Javascript
+************************************************************************
+ 
+Object:
+.......
+
+1.In JavaScript, an object is a variable that contains a different value. It acts as a storage space for a set of values. Objects are one of the most important data types in JavaScript. They are used to represent real-world objects, such as people, places, and things
+
+2.Objects can have properties and methods, which allow us to interact with them.
+
+3. objectName.propertyName
+
+4. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+
+5.Every object has some property associated with some value. These values can be accessed using these properties associated with them.
+
+var myCar = new Object();
+
+myCar.make = 'Suzuki';
+
+myCar.model = 'Altros';
+
+Internal representation in Javascript:
+......................................
+
+1.The internal representation of an object in JavaScript is a collection of properties and values. Properties are names that are used to access values, and values can be anything, including other objects, functions, strings, numbers, and booleans.
+
+2.The internal representation of an object is not visible to JavaScript code, but it can be accessed using the Object constructor. The Object constructor can be used to create new objects, or to inspect the properties and values of existing objects.
+
+3.Properties are the values associated with a JavaScript object.
+
+        objectName.propertyName
+
+4.A JavaScript object is a collection of unordered properties.
+
+5.Properties can usually be changed, added, and deleted, but some are read only.
